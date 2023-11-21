@@ -1,0 +1,236 @@
+---
+title: "Rubric for Inference"
+output: html_notebook
+---
+
+<!-- Please don't mess with the next few lines! -->
+<style>h5{font-size:2em;color:#0000FF}h6{font-size:1.5em;color:#0000FF}div.answer{margin-left:5%;border:1px solid #0000FF;border-left-width:10px;padding:25px} div.summary{background-color:rgba(30,144,255,0.1);border:3px double #0000FF;padding:25px}</style>`r options(scipen=999)`<p style="color:#ffffff">`r intToUtf8(c(49,46,50))`</p>
+<!-- Please don't mess with the previous few lines! -->
+
+This is the R Markdown outline for running inference, both a hypothesis test and a confidence interval.
+
+
+##### Exploratory data analysis
+
+###### Use data documentation (help files, code books, Google, etc.), the `str` command, and other summary functions to understand the data.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+```{r}
+# Add code here to understand the data.
+```
+
+
+
+###### Prepare the data for analysis. [Not always necessary.]
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to prepare the data for analysis.
+```
+
+:::
+
+###### Make tables or plots to explore the data visually.
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to make tables or plots.
+```
+
+:::
+
+##### Hypotheses
+
+###### Identify the sample (or samples) and a reasonable population (or populations) of interest.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Express the null and alternative hypotheses as contextually meaningful full sentences.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+$H_{0}:$ Null hypothesis goes here.
+
+$H_{A}:$ Alternative hypothesis goes here.
+
+:::
+
+###### Express the null and alternative hypotheses in symbols (when possible).
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+$H_{0}: math$
+
+$H_{A}: math$
+
+:::
+
+
+##### Model
+
+###### Identify the sampling distribution model.
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Check the relevant conditions to ensure that model assumptions are met.
+
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+##### Mechanics
+
+###### Compute the test statistic.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to compute the test statistic.
+```
+:::
+
+
+###### Report the test statistic in context (when possible).
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Plot the null distribution.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to plot the null distribution.
+```
+:::
+
+
+###### Calculate the P-value.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to calculate the P-value.
+```
+:::
+
+
+###### Interpret the P-value as a probability given the null.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+
+##### Conclusion
+
+###### State the statistical conclusion.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### State (but do not overstate) a contextually meaningful conclusion.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Identify the possibility of either a Type I or Type II error and state what making such an error means in the context of the hypotheses.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+
+##### Confidence interval
+
+###### Check the relevant conditions to ensure that model assumptions are met.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Calculate the confidence interval.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to calculate the confidence interval.
+```
+
+:::
+
+###### State (but do not overstate) a contextually meaningful interpretation.
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### If running a two-sided test, explain how the confidence interval reinforces the conclusion of the hypothesis test.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
