@@ -1,0 +1,242 @@
+---
+title: "Final Project_Xu_Lila_Kellie"
+output: html_notebook
+---
+
+<!-- Please don't mess with the next few lines! -->
+<style>h5{font-size:2em;color:#0000FF}h6{font-size:1.5em;color:#0000FF}div.answer{margin-left:5%;border:1px solid #0000FF;border-left-width:10px;padding:25px} div.summary{background-color:rgba(30,144,255,0.1);border:3px double #0000FF;padding:25px}</style>`r options(scipen=999)`<p style="color:#ffffff">`r intToUtf8(c(49,46,50))`</p>
+<!-- Please don't mess with the previous few lines! -->
+
+This is the R Markdown outline for running inference, both a hypothesis test and a confidence interval.
+
+
+##### Exploratory data analysis
+
+###### Use data documentation (help files, code books, Google, etc.), the `str` command, and other summary functions to understand the data.
+
+::: {.answer}
+
+This data was compiled from the Integrated Postsecondary Education Data System (IPEDS). From the National Center for Education Statistics (NCES) website:  "[IPEDS] is a system of interrelated surveys conducted annually by the U.S. Department of Education’s National Center for Education Statistics (NCES). IPEDS gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs. The Higher Education Act of 1965, as amended, requires that institutions that participate in federal student aid programs report data on enrollments, program completions, graduation rates, faculty and staff, finances, institutional prices, and student financial aid."
+
+Our project team specifically filtered Utah institutions that were non-profit, 4-year institutions with a primary focus on granting bachelor's degrees. According to the IPEDS database, Utah has 61 degree-granting institutions, but many of these are 2-year, professional, and/or for-profit institutions. After filtering institutions based on our selected criteria, we ended up with 8 total institutions in our dataset.
+
+After filtering our institutions, we created a dataset with enrollment data for the last 5 years (up to 2022, the most recent year for which IPEDS has institutional data). This 5-year window will have enrollment data pre-COVID (offically declared a global pandemic in March 2020) and enrollment data post-COVID. Our dataset contains enrollment data categorized by institution, race/ethnicity, and gender. To simplify our statistical analyses, we will mostly be focusing on data provided by Westminster University (formerly College).
+
+Because this data is reported from institutions and is a requirement to receive federal funding, we can reasonably assume that the reported data is accurate.
+
+:::
+
+```{r}
+# Add code here to understand the data.
+```
+
+
+
+###### Prepare the data for analysis. [Not always necessary.]
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to prepare the data for analysis.
+```
+
+:::
+
+###### Make tables or plots to explore the data visually.
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to make tables or plots.
+```
+
+:::
+
+##### Hypotheses
+
+###### Identify the sample (or samples) and a reasonable population (or populations) of interest.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Express the null and alternative hypotheses as contextually meaningful full sentences.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+$H_{0}:$ Null hypothesis goes here.
+
+$H_{A}:$ Alternative hypothesis goes here.
+
+:::
+
+###### Express the null and alternative hypotheses in symbols (when possible).
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+$H_{0}: math$
+
+$H_{A}: math$
+
+:::
+
+
+##### Model
+
+###### Identify the sampling distribution model.
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Check the relevant conditions to ensure that model assumptions are met.
+
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+##### Mechanics
+
+###### Compute the test statistic.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to compute the test statistic.
+```
+:::
+
+
+###### Report the test statistic in context (when possible).
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Plot the null distribution.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to plot the null distribution.
+```
+:::
+
+
+###### Calculate the P-value.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to calculate the P-value.
+```
+:::
+
+
+###### Interpret the P-value as a probability given the null.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+
+##### Conclusion
+
+###### State the statistical conclusion.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### State (but do not overstate) a contextually meaningful conclusion.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Identify the possibility of either a Type I or Type II error and state what making such an error means in the context of the hypotheses.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+
+##### Confidence interval
+
+###### Check the relevant conditions to ensure that model assumptions are met.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### Calculate the confidence interval.
+
+::: {.answer}
+
+Please write up your answer here.
+
+
+
+```{r}
+# Add code here to calculate the confidence interval.
+```
+
+:::
+
+###### State (but do not overstate) a contextually meaningful interpretation.
+::: {.answer}
+
+Please write up your answer here.
+
+:::
+
+###### If running a two-sided test, explain how the confidence interval reinforces the conclusion of the hypothesis test.
+
+::: {.answer}
+
+Please write up your answer here.
+
+:::
