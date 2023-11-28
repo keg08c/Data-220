@@ -16,7 +16,13 @@ This is the R Markdown outline for running inference, both a hypothesis test and
 
 ::: {.answer}
 
-Please write up your answer here.
+This data was compiled from the Integrated Postsecondary Education Data System (IPEDS). From the National Center for Education Statistics (NCES) website:  "[IPEDS] is a system of interrelated surveys conducted annually by the U.S. Department of Education’s National Center for Education Statistics (NCES). IPEDS gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs. The Higher Education Act of 1965, as amended, requires that institutions that participate in federal student aid programs report data on enrollments, program completions, graduation rates, faculty and staff, finances, institutional prices, and student financial aid."
+
+Our project team specifically filtered Utah institutions that were non-profit, 4-year institutions with a primary focus on granting bachelor's degrees. According to the IPEDS database, Utah has 61 degree-granting institutions, but many of these are 2-year, professional, and/or for-profit institutions. After filtering institutions based on our selected criteria, we ended up with 8 total institutions in our dataset.
+
+After filtering our institutions, we created a dataset with enrollment data for the last 5 years (up to 2022, the most recent year for which IPEDS has institutional data). This 5-year window will have enrollment data pre-COVID (offically declared a global pandemic in March 2020) and enrollment data post-COVID. Our dataset contains enrollment data categorized by institution, race/ethnicity, and gender. To simplify our statistical analyses, we will mostly be focusing on data provided by Westminster University (formerly College).
+
+Because this data is reported from institutions and is a requirement to receive federal funding, we can reasonably assume that the reported data is accurate.
 
 :::
 
