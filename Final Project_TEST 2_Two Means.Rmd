@@ -36,7 +36,7 @@ Because this data is reported from institutions and is a requirement to receive 
 
 ::: {.answer}
 
-Please write up your answer here.
+For Test 2, we are going to explore average enrollments of Westminster students between academic years 2018/2019 (pre-Covid) and 2021/2022 (post covid). 
 
 
 
