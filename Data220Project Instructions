@@ -1,0 +1,21 @@
+For this project, please choose a data set with at least one categorical variable and one numerical variable. 
+
+You will submit an HTML file (with extension .nb.html generated from an R notebook to Canvas in advance of the posted deadline. Your report should have the following sections:
+
+Introduction
+Start with a brief introduction that explains the data set you've chosen, giving some background information about the provenance and structure of the data. Do a little exploratory data analysis (graphs, charts, tables, etc.) to learn about the data. Graphs should include titles and properly labeled axes. Graphs should also be integrated into the text and not standalone. (In other words, don't show a graph until after you've introduced it. Your reader should not be confused by a random graph that appears with no explanation.)
+Mechanical tasks
+You will go through two "mechanical" tasks that demonstrate your ability to run basic types of analysis in R. These tasks will not necessarily be "good" models and you don't need to worry about the conclusions expressing anything meaningful. You should follow Rubric_for_Inference.Rmd Download Rubric_for_Inference.Rmdto build your models.
+Here are the two tasks you need to complete:
+One Propotion or Two Propotions 
+One Mean or Two Means or ANOVA
+ 
+
+Presentation and  Report of your project:
+
+You will have 10 minutes to present your project. You could introduce your project using either your html file or slides. Your presentation needs to at least include following parts:
+
+Introduction to the dataset.
+Explore the data.
+One Propotion or Two Propotions.
+One Mean or Two Means  or ANOVA.
