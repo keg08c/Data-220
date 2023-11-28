@@ -1,5 +1,5 @@
 ---
-title: "Rubric for Inference"
+title: "Final Project_Xu_Lila_Kellie"
 output: html_notebook
 ---
 
